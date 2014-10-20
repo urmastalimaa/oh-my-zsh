@@ -1,11 +1,7 @@
-DISABLE_AUTO_UPDATE="true"
-
 ZSH_THEME="avit"
 
-ENABLE_CORRECTION="true"
-COMPLETION_WAITING_DOTS="true" 
-
 export EDITOR='vim'
+export MYVIMRC='/Users/urmas/.vimrc'
 
 set input-meta on
 set output-meta on
@@ -17,3 +13,5 @@ bindkey '\e[1;9C' forward-word
 
 bindkey '\e[1;10D' beginning-of-line
 bindkey '\e[1;10C' end-of-line
+
+alias opensim='open /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/A    pplications/iPhone\ Simulator.app'
