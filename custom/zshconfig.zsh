@@ -2,6 +2,7 @@ ZSH_THEME="avit"
 
 export EDITOR='vim'
 export MYVIMRC='/Users/urmas/.vimrc'
+export JRUBY_OPTS="--dev"
 
 set input-meta on
 set output-meta on
